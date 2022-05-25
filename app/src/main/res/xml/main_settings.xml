@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="1000"
+        android:inputType="number"
+        android:key="key_delay_timer"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Ввод целого числа"
+        android:title="Задержка для обновления графика" />
+    <EditTextPreference
+        android:defaultValue="40"
+        android:inputType="number"
+        android:key="key_points_count"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Не более 300"
+        android:title="Кол-во точек на экране" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="key_graph_temp"
+        android:title="Показвать вывод графика температуры" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="key_graph_rand"
+        android:title="Показвать вывод графика рандомных чисел" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="key_last_connect_device"
+        android:summary="...к последнему устройству"
+        android:title="Подключаться автоматически" />
+</PreferenceScreen>
